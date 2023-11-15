@@ -1,0 +1,27 @@
+
+.email_verify-password{
+    font-weight: 600;
+}
+.form_verify-email{
+    width: 400px;
+    background-color:#ffffff;
+    margin: 40px;
+    position: relative;
+}
+.resend_code_btn{
+    cursor: pointer;
+}
+.error_messege{
+    margin-bottom: 12px;
+    color: #D83F3F;
+    font-weight: 600;
+    font-size: 16px;
+    display: none;
+}
+.error_messege_active{
+    margin-bottom: 12px;
+    color: #D83F3F;
+    font-weight: 600;
+    font-size: 16px;
+    display: block;
+ }

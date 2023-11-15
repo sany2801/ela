@@ -1,0 +1,88 @@
+#filters_wrap {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+#clear_btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--grey-500, #737373);
+  font-family: Titillium Web;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+  transition: .2s;
+}
+
+#clear_btn img {
+  opacity: .6;
+  transition: .2s;
+}
+
+#clear_btn:hover {
+  color: #0F0F0F;
+}
+
+#clear_btn:hover img {
+  opacity: 1;
+}
+
+.status_new,
+.statu_in_progress,
+.status_awaiting_payment,
+.status_paid,
+.status_accepted,
+.status_in_transit,
+.status_complete,
+.status_failed {
+  display: flex;
+  width: min-content;
+  padding: 2px 7px;
+  border-radius: 4px;
+}
+
+.status_new {
+  color: #205CB6;
+  background-color: #D8E8FC;
+}
+
+.statu_in_progress {
+  color: #B1881D;
+  background-color: #FCF4D9;
+}
+
+.status_awaiting_payment {
+  color: #868686;
+  background-color: #F0F0F0;
+}
+
+.status_paid {
+  color: #3D910A;
+  background-color: #DEFCD9;
+}
+
+.status_accepted {
+  color: #CB7E24;
+  background-color: #FCECDA;
+}
+
+.status_in_transit {
+  color: #BC108C;
+  background-color: #FCDAF2;
+}
+
+.status_complete {
+  color: #593C96;
+  background-color: #E1DAFC;
+}
+
+.status_failed {
+  color: #D83F3F;
+  background-color: #F9E1E1;
+}

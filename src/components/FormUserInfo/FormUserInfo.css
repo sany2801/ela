@@ -1,0 +1,54 @@
+.form_user_info-tittle{
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.start  {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+}
+.form_user-info{
+    height:70vh;
+}
+.tittle{
+    font-size:24px ;
+    font-weight: 400;
+    font-family: Titillium Web;
+    margin-bottom: 8px;
+    line-height: 28px; /* 116.667% */
+}
+
+.typeUser{
+    margin-bottom: 100px;
+}
+.tittle span{
+    color: #BE8951;
+}
+.discription{
+    color: #747474;
+    font-family: Titillium Web;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 32px;
+}
+
+
+
+
+.btn_navigate_formInfo{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+}
+.btn_navigate_formInfo button{
+    width: 196px;
+    margin-bottom: 0;
+}
+.btn-log_out{
+    display: block;
+}

@@ -1,0 +1,22 @@
+.white_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3F3F3F;
+  cursor: pointer;
+  border-radius: var(--corner-radius-s, 4px);
+  border: 1px solid var(--light-grey, #F0F0F0);
+  background: var(--white, #FFF);
+  transition: .2s;
+}
+
+.white_button:hover {
+  background: #F0F0F0;
+}
+
+.white_button:disabled,
+.white_button:disabled:hover {
+  background: var(--white, #FFF);
+  cursor: default;
+  color: var(--grey-300, #9F9F9F);
+}

@@ -1,0 +1,35 @@
+#tabs_wrap .MuiTabs-indicator {
+  background-color: #D0AC80;
+}
+
+#simple-tab-0,
+#simple-tab-1,
+#simple-tab-2,
+#simple-tab-3 {
+  color: #CFCFCF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: none;
+}
+
+#simple-tab-0[aria-selected="true"],
+#simple-tab-1[aria-selected="true"],
+#simple-tab-2[aria-selected="true"],
+#simple-tab-3[aria-selected="true"] {
+  color: #D0AC80;
+}
+
+.page_wrap {
+  padding: 24px;
+}
+
+#shipments_header {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+
+#shipments_header button {
+  margin-left: auto;
+}

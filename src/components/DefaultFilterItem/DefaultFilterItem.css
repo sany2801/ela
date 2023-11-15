@@ -1,0 +1,22 @@
+.filter_item {
+  cursor: pointer;
+  padding: 4px 12px 4px 8px;
+  border: 1.5px solid var(--grey-50, #F0F0F0);
+  background: var(--white, #FFF);
+  color: var(--grey-300, #9F9F9F);
+  transition: .2s;
+}
+
+.filter_item:hover {
+  border-color: #D9BF98;
+  color: #737373;
+}
+
+.filter_add_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  background-color: #FFF;
+}

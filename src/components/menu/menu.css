@@ -1,0 +1,146 @@
+*{
+    /* border: 1px solid black; */
+}
+.menu_section_close{
+    height: 100vh;
+    width: 80px;
+    background-color:  #D0AC80;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 1s;
+    position: sticky;
+    top: 0;
+}
+.menu_section_close .item_link{
+    transform:scale(0);
+    transition: all ease 1s;
+}
+.menu_section_open .item_link{
+    transform:scale(1);
+    transition: all ease 1s;
+}
+.menu_logo{
+    width: 100%;
+    height: 48px;
+    background-image: url(/src/images/Logo.png);
+    background-repeat: no-repeat;
+    margin-bottom: 16px;
+    transition: 1s;
+}
+.hr{
+    width: 100%;
+    height: 1px;
+    background-color:rgb(255, 255, 255);
+    margin-bottom:16px;
+}
+
+.menu_section_open{
+    width: 280px;
+    height: 100vh;
+    background-color:  #D0AC80;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 1s;
+    position: sticky;
+    top: 0;
+}
+
+.menu_section_open  .menu_logo{
+    background-position: center;
+}
+ 
+
+
+.nav_menu{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.link_menu, .menu_control{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    padding: 8px;
+    margin-bottom: 16px;
+    border-radius:4px;
+    font-weight: 400;
+    position: relative;
+    color: white;
+}
+
+.active_link{
+    background-color:#ffffff
+}
+
+
+
+.link_menu:hover, .menu_control:hover{
+    background-color:#FFFFFF33
+}
+
+.logo_link{
+    width: 32px;
+    min-width: 32px;
+    height: 32px;
+    margin-right: 16px;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: contain;
+
+}
+
+.link_menu_hover{
+    background-color:#D0AC80;
+}
+
+ .link_menu:nth-child(1) .logo_link{
+    background-image:url(/src/images/Shipments-def.png)
+}.link_menu:nth-child(2) .logo_link{
+    background-image:url(/src/images/items_def.png)
+}.link_menu:nth-child(3) .logo_link{
+    background-image:url(/src/images/spaces_def.png)
+}.link_menu:nth-child(4) .logo_link{
+    background-image:url(/src/images/notifications_def.png)
+}
+
+.active_link:nth-child(1) .logo_link{
+    background-image:url(/src/images/Shipments.png)
+}.active_link:nth-child(2) .logo_link{
+    background-image:url(/src/images/items.png)
+}.active_link:nth-child(3) .logo_link{
+    background-image:url(/src/images/spaces.png)
+}.active_link:nth-child(4) .logo_link{
+    background-image:url(/src/images/notifications.png)
+}
+.active_link:hover{
+    background-color:#ffffff
+}
+.active_link .item_link{
+    color:black
+}
+.menu_footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+ .menu_footer .link_menu:nth-child(1) .logo_link{
+    background-image:url(/src/images/profile_def.png)
+} 
+
+.menu_footer .active_link .logo_link:nth-child(1){
+    background-image:url(/src/images/profile.png);
+
+}
+.menu_control .logo_link{
+    background-image:url(/src/images/menu_close.png)
+}
+.menu_section_close .menu_control .logo_link{
+    transform: rotate(180deg);
+}
+
+
