@@ -15,7 +15,7 @@ import Accounts from './pages/accounts/Account';
 import Notfound from './pages/404/Notfound';
 import RequireAuth from './components/RequireAuth/RequireAuth';
 import { ModalProvider } from './context/ModalContext/ModalContext';
-import Profile from './layauts/Profile/Profile';
+// import Profile from './layauts/Profile/Profile';
 import Shipments from './layauts/Shipments/Shipments';
 
 
@@ -47,7 +47,7 @@ function App() {
         <Route path='items' element={<h1>Items</h1>} ></Route>
         <Route path='spaces' element={<h1>Spaces</h1>} ></Route>
         <Route path='notifications' element={<h1>Notifications</h1>} ></Route>
-        <Route path='profile' element={<Profile />} ></Route>
+        {/* <Route path='profile' element={<Profile />} ></Route> */}
       </Route>`
       <Route path='*' element={<Notfound />}></Route>
     </Routes >
